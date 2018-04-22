@@ -32,7 +32,7 @@ $(document).ready(function(){
 
             $.ajax({
                 //Insert YOUR API Key after the '=' inside the single quotes.
-                url:'https://api.themoviedb.org/3/search/movie?api_key=INSERT-HERE',
+                url:'https://api.themoviedb.org/3/search/movie?api_key=c0905ad164d2b99a50b54614f792a82c',
                 data: query
             })
             
@@ -43,6 +43,10 @@ $(document).ready(function(){
                 //and places the title on the HTML page, where the id="original_title".
                 
                 $("#original_title").html(json.results[0].original_title);
+                
+             
+                
+                
                 
 
                 /***********************Retrieve Movie Plot from Server & Add to HTML Document******************
@@ -56,7 +60,7 @@ $(document).ready(function(){
                  3.  Use the example above where the Movie Title was retrieved to complete this step!
                  
                  *********************************Insert Code Below********************************************/                
-                
+                $("#overview").html(json.results[0].overview);
                 
                 
 
@@ -70,7 +74,8 @@ $(document).ready(function(){
                  2.  Use as the DOM name where the id is "#release_date"
                  3.  Use the example above where the Movie Title was retrieved to complete this step!
                  
-                 *********************************Insert Code Below********************************************/               
+                 *********************************Insert Code Below********************************************/   
+                    $("#release_date").html(json.results[0].release_date);
 
 
 
@@ -86,7 +91,7 @@ $(document).ready(function(){
                  3.  Use the example above where the Movie Title was retrieved to complete this step!
                  
                  *********************************Insert Code Below********************************************/   
-
+                    $("#popularity").html(json.results[0].popularity);
   
 
                 
@@ -100,7 +105,8 @@ $(document).ready(function(){
                  2.  Use as the DOM name where the id is "#original_language"
                  3.  Use the example above where the Movie Title was retrieved to complete this step!
                  
-                 *********************************Insert Code Below********************************************/                 
+                 *********************************Insert Code Below********************************************/  
+                 $("#original_language").html(json.results[0].original_language);
 
 
 
