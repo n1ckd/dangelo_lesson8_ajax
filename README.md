@@ -13,8 +13,7 @@ Nicholas D'Angelo
 Lesson 8 teaches us to use online databases with API keys in our programs. 
 
 ### View Project:
-(Replace this statement with your Github Page URL that was created when you 
- published the project.)
+https://n1ckd.github.io/dangelo_lesson8_ajax/
 
 ### Lessons Learned in the Assignment:
 1. How to register for an API key.
