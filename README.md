@@ -4,20 +4,20 @@
 LIS 2360:  Web Application Development
 
 ### Assignment Date:  
-(Month Day, Year)
+(4/20/18)
 
 ### Student Name:  
-(First and Last Name)
+Nicholas D'Angelo
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
+Lesson 8 teaches us to use online databases with API keys in our programs. 
 
 ### View Project:
 (Replace this statement with your Github Page URL that was created when you 
  published the project.)
 
 ### Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
+1. How to register for an API key.
+2. How to retrieve data from a server and encorpate it into a html page.
+3. How to add additional server data into a html page using JSON. 
 # dangelo_lesson8_ajax
